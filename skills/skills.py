@@ -62,3 +62,18 @@ def final_price(price, discount, sales_tax):
     return total_cost
 
 print(final_price(85, 0.15, 0.08))
+
+""" Exercise 8 """
+""" Problem 1 """
+def calculate_trip_cost(distance_km, cost_per_km):
+    return distance_km * cost_per_km
+
+result = calculate_trip_cost(150, 1.5)
+print(result)
+
+""" Problem 2 """
+def calculate_total_savings(monthly_deposit, number_of_months):
+    return monthly_deposit * number_of_months
+
+result = calculate_total_savings(3000, 12)
+print(result)
