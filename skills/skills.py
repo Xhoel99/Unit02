@@ -17,3 +17,11 @@ required_cheese = (cheese_ounces / recipe_serves) * num_guests
 
 print(required_eggs)
 print(required_cheese)
+
+""" Exercise 3 """
+total_budget = 500
+daily_cost = 45
+trip_length = 7
+
+remaining_budget = total_budget - (daily_cost * trip_length)
+print(remaining_budget)
