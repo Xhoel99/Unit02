@@ -39,3 +39,26 @@ def calculate_change(purchase_price, amount_paid):
     return change
 
 print(calculate_change(17.50, 20.00))
+
+""" Exercise 6 """
+def minutes_til_midnight(hour, minute):
+    current_total_minutes = (hour * 60) + minute
+    total_day_minutes = 24 * 60
+    minutes_left = total_day_minutes - current_total_minutes
+    return minutes_left
+
+print(minutes_til_midnight(15, 30))
+
+""" Exercise 7 """
+def apply_discount(price, discount):
+    return price - (price * discount)
+
+def apply_tax(price, sales_tax):
+    return price + (price * sales_tax)
+
+def final_price(price, discount, sales_tax):
+    discounted_price = apply_discount(price, discount)
+    total_cost = apply_tax(discounted_price, sales_tax)
+    return total_cost
+
+print(final_price(85, 0.15, 0.08))
