@@ -32,3 +32,10 @@ def calculate_price(cost, tip):
     return total
 
 print(calculate_price(50.0, 0.15))
+
+""" Exercise 5 """
+def calculate_change(purchase_price, amount_paid):
+    change = amount_paid - purchase_price
+    return change
+
+print(calculate_change(17.50, 20.00))
