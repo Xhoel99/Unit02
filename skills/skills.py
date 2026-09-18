@@ -25,3 +25,10 @@ trip_length = 7
 
 remaining_budget = total_budget - (daily_cost * trip_length)
 print(remaining_budget)
+
+""" Exercise 4 """
+def calculate_price(cost, tip):
+    total = cost + (cost * tip)
+    return total
+
+print(calculate_price(50.0, 0.15))
